@@ -25,7 +25,7 @@ You can remove the ports mapping from the docker-compose file and use NGINX as a
 ## Setup Grafana
 
 Navigate to `http://<host-ip>:3000` and login with user ***admin*** password ***changeme***. You can change the password from Grafana UI or 
- by modifying the [user.config](https://github.com/stefanprodan/dockprom/blob/master/user.config) file.
+ by modifying the [user.config](https://github.com/axbaretto/dockprom/blob/master/user.config) file.
 
 From the Grafana menu, choose ***Data Sources*** and click on ***Add Data Source***. 
 Use the following values to add the Prometheus container as data source:
@@ -35,12 +35,12 @@ Use the following values to add the Prometheus container as data source:
 * Url: http://prometheus:9090
 * Access: proxy
 
-Now you can import the dashboard temples from the [grafana](https://github.com/stefanprodan/dockprom/tree/master/grafana) directory. 
+Now you can import the dashboard temples from the [grafana](https://github.com/axbaretto/dockprom/tree/master/grafana) directory. 
 From the Grafana menu, choose ***Dashboards*** and click on ***Import***.
 
 ***Docker Host Dashboard***
 
-![Host](https://raw.githubusercontent.com/stefanprodan/dockprom/master/screens/Grafana_Docker_Host.png)
+![Host](https://raw.githubusercontent.com/axbaretto/dockprom/master/screens/Grafana_Docker_Host.png)
 
 The Docker Host Dashboard shows key metrics for monitoring the resource usage of your server:
 
@@ -54,7 +54,7 @@ The Docker Host Dashboard shows key metrics for monitoring the resource usage of
 
 ***Docker Containers Dashboard***
 
-![Containers](https://raw.githubusercontent.com/stefanprodan/dockprom/master/screens/Grafana_Docker_Containers.png)
+![Containers](https://raw.githubusercontent.com/axbaretto/dockprom/master/screens/Grafana_Docker_Containers.png)
 
 The Docker Containers Dashboard shows key metrics for monitoring running containers:
 
