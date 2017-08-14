@@ -7,7 +7,7 @@ A monitoring solution for Docker hosts and containers with [Prometheus](https://
 
 Clone this repository on your Docker host, cd into dockprom directory and run compose up:
 
-* `$ git clone https://github.com/stefanprodan/dockprom` 
+* `$ git clone https://github.com/axbaretto/dockprom` 
 * `$ cd dockprom`
 * `$ docker-compose up -d`
 
